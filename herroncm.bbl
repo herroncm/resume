@@ -1,0 +1,208 @@
+\begin{thebibliography}{7}
+% BibTex style file: aps.bst  (nameyear), 2013-04-23
+\ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
+\ifx \binits  \undefined \def \binits#1{#1} \fi
+\ifx \bauthor  \undefined \def \bauthor#1{#1} \fi
+\ifx \bjtitle  \undefined \def \bjtitle#1{\textrm{#1}}\fi
+\ifx \batitle  \undefined \def \batitle#1{\textit{#1}} \fi
+\ifx \bctitle  \undefined \def \bctitle#1{#1} \fi
+\ifx \bvolume  \undefined \def \bvolume#1{#1}\fi
+\ifx \byear  \undefined \def \byear#1{#1} \fi
+\ifx \bissue  \undefined \def \bissue#1{#1} \fi
+\ifx \bfpage  \undefined \def \bfpage#1{#1} \fi
+\ifx \blpage  \undefined \def \blpage #1{#1} \fi
+\ifx \burl  \undefined \def \burl#1{#1} \fi
+\ifx \doiurl  \undefined \def \doiurl#1{#1} \fi
+\ifx \betal  \undefined \def \betal{et al.} \fi
+\ifx \binstitute  \undefined \def \binstitute#1{#1} \fi
+\ifx \beditor  \undefined \def \beditor#1{#1} \fi
+\ifx \bpublisher  \undefined \def \bpublisher#1{#1} \fi
+\ifx \bbtitle  \undefined \def \bbtitle#1{\textit{#1}} \fi
+\ifx \bedition  \undefined \def \bedition#1{#1} \fi
+\ifx \bseriesno  \undefined \def \bseriesno#1{#1} \fi
+\ifx \blocation  \undefined \def \blocation#1{#1} \fi
+\ifx \bsertitle  \undefined \def \bsertitle#1{#1} \fi
+\ifx \bsnm \undefined \def \bsnm#1{#1} \fi
+\ifx \bsuffix \undefined \def \bsuffix#1{#1} \fi
+\ifx \bparticle \undefined \def \bparticle#1{#1} \fi
+\ifx \barticle \undefined \def \barticle#1{#1} \fi
+\ifx \botherref \undefined \def \botherref #1{#1} \fi
+\ifx \url \undefined \def \url#1{#1} \fi
+\ifx \bchapter \undefined \def \bchapter#1{#1} \fi
+\ifx \bbook \undefined \def \bbook#1{#1} \fi
+\ifx \bcomment \undefined \def \bcomment#1{#1} \fi
+\ifx \oauthor \undefined \def \oauthor#1{#1} \fi
+\ifx \citeauthoryear \undefined \def \citeauthoryear#1{#1} \fi
+\ifx \texttildelow  \undefined \def \texttildelow{\symbol{126}} \fi
+\def \endbibitem {}
+\ifx \bconflocation  \undefined \def \bconflocation#1{#1} \fi
+
+\bibitem{casey7}%[\protect\citeauthoryear{{Fowler} et~al.}{2014}]{casey7}
+\begin{barticle}
+\bauthor{\binits{M.G.} \bsnm{{Fowler}}},
+\bauthor{\binits{J.} \bsnm{{Coovadia}}},
+\bauthor{\binits{\textbf{C.}\textbf{M.}} \bsnm{{\textbf{Herron}}}},
+\bauthor{\binits{Y.} \bsnm{{Maldonado}}},
+\bauthor{\binits{T.} \bsnm{{Chipato}}},
+\bauthor{\binits{D.} \bsnm{{Moodley}}},
+\bauthor{\binits{P.} \bsnm{{Musoke}}},
+\bauthor{\binits{J.} \bsnm{{Aizire}}},
+\bauthor{\binits{K.} \bsnm{{Manji}}},
+\bauthor{\binits{L.} \bsnm{{Stanix-Chibanda}}},
+\bauthor{\binits{W.} \bsnm{{Fawzi}}},
+\bauthor{\binits{V.} \bsnm{{Chetty}}},
+\bauthor{\binits{L.} \bsnm{{Msweli}}},
+\bauthor{\binits{R.} \bsnm{{Kisenge}}},
+\bauthor{\binits{E.R.} \bsnm{{Brown}}},
+\bauthor{\binits{A.} \bsnm{{Mwatha}}},
+\bauthor{\binits{S.H.} \bsnm{{Eshelman}}},
+\bauthor{\binits{P.} \bsnm{{Richardson}}},
+\bauthor{\binits{M.} \bsnm{{Allen}}},
+\bauthor{\binits{K.} \bsnm{{George}}},
+\bauthor{\binits{P.} \bsnm{{Andrew}}},
+\bauthor{\binits{S.} \bsnm{{Zwerski}}},
+\bauthor{\binits{L.M.} \bsnm{{Mofenson}}},
+\bauthor{\binits{J.B.} \bsnm{{Jackson}}},
+\batitle{{Efficacy and safety of an extended nevirapine regimen in infants of
+  breastfeeding mothers with HIV-1 infection for prevention of HIV-1
+  transmission (HPTN 046): 18-month results of a randomized, double-blind,
+  placebo-controlled trial.}}
+\bjtitle{J. Acquir. Immune. Defic. Syndr.}
+\bvolume{65},
+\bfpage{366}--\blpage{374}
+(\byear{2014})
+\end{barticle}
+\endbibitem
+
+\bibitem{casey6}%[\protect\citeauthoryear{{Mirochnick} et~al.}{2014}]{casey6}
+\begin{barticle}
+\bauthor{\binits{M.} \bsnm{{Mirochnick}}},
+\bauthor{\binits{T.} \bsnm{{Taha}}},
+\bauthor{\binits{R.} \bsnm{{Kreitchmann}}},
+\bauthor{\binits{K.} \bsnm{{Nielsen-Saines}}},
+\bauthor{\binits{N.} \bsnm{{Kumwenda}}},
+\bauthor{\binits{E.} \bsnm{{Joao}}},
+\bauthor{\binits{J.} \bsnm{{Pinto}}},
+\bauthor{\binits{B.} \bsnm{{Santos}}},
+\bauthor{\binits{T.} \bsnm{{Parsons}}},
+\bauthor{\binits{B.} \bsnm{{Kearney}}},
+\bauthor{\binits{L.} \bsnm{{Emel}}},
+\bauthor{\binits{\textbf{C.}\textbf{M.}} \bsnm{{\textbf{Herron}}}},
+\bauthor{\binits{P.} \bsnm{{Richardson}}},
+\bauthor{\binits{S.E.} \bsnm{{Hudelson}}},
+\bauthor{\binits{S.H.} \bsnm{{Eshelman}}},
+\bauthor{\binits{K.} \bsnm{{George}}},
+\bauthor{\binits{M.G.} \bsnm{{Fowler}}},
+\bauthor{\binits{P.} \bsnm{{Sato}}},
+\bauthor{\binits{L.} \bsnm{{Mofenson}}},
+\batitle{{Pharmacokinetics and safety of tenofovir in HIV-infected women during
+  labor and their infants during the first week of life.}}
+\bjtitle{J. Acquir. Immune. Defic. Syndr.}
+\bvolume{65},
+\bfpage{33}--\blpage{41}
+(\byear{2014})
+\end{barticle}
+\endbibitem
+
+\bibitem{casey5}%[\protect\citeauthoryear{{Watts} et~al.}{2013}]{casey5}
+\begin{barticle}
+\bauthor{\binits{D.H.} \bsnm{{Watts}}},
+\bauthor{\binits{E.R.} \bsnm{{Brown}}},
+\bauthor{\binits{Y.} \bsnm{{Maldonado}}},
+\bauthor{\binits{\textbf{C.}\textbf{M.}} \bsnm{{\textbf{Herron}}}},
+\bauthor{\binits{T.} \bsnm{{Chipato}}},
+\bauthor{\binits{L.} \bsnm{{Reddy}}},
+\bauthor{\binits{D.} \bsnm{{Moodley}}},
+\bauthor{\binits{C.} \bsnm{{Nakabiito}}},
+\bauthor{\binits{K.} \bsnm{{Manji}}},
+\bauthor{\binits{W.} \bsnm{{Fawzi}}},
+\bauthor{\binits{K.} \bsnm{{George}}},
+\bauthor{\binits{P.} \bsnm{{Richardson}}},
+\bauthor{\binits{S.} \bsnm{{Zwerski}}},
+\bauthor{\binits{H.} \bsnm{{Coovadia}}},
+\bauthor{\binits{M.} \bsnm{{Fowler}}},
+\batitle{{HIV disease progression in the first year after delivery among
+  African women followed in the HPTN 046 clinical trial.}}
+\bjtitle{J. Acquir. Immune. Defic. Syndr.}
+\bvolume{64},
+\bfpage{299}--\blpage{306}
+(\byear{2013})
+\end{barticle}
+\endbibitem
+
+\bibitem{casey4}%[\protect\citeauthoryear{{Raymond} et~al.}{2012}]{casey4}
+\begin{barticle}
+\bauthor{\binits{V.M.} \bsnm{{Raymond}}},
+\bauthor{\binits{\textbf{C.}\textbf{M.}} \bsnm{{\textbf{Herron}}}},
+\bauthor{\binits{T.J.} \bsnm{{Giordano}}},
+\bauthor{\binits{S.B.} \bsnm{{Gruber}}},
+\batitle{{Familial renal cancer as an indicator of hereditary leiomyomatosis
+  and renal cell cancer syndrome.}}
+\bjtitle{Fam. Cancer.}
+\bvolume{11},
+\bfpage{115}--\blpage{121}
+(\byear{2012})
+\end{barticle}
+\endbibitem
+
+\bibitem{casey3}%[\protect\citeauthoryear{{Marvin} et~al.}{2011}]{casey3}
+\begin{barticle}
+\bauthor{\binits{M.L.} \bsnm{{Marvin}}},
+\bauthor{\binits{S.M.} \bsnm{{Mazzoni}}},
+\bauthor{\binits{\textbf{C.}\textbf{M.}} \bsnm{{\textbf{Herron}}}},
+\bauthor{\binits{S.} \bsnm{{Edwards}}},
+\bauthor{\binits{S.B.} \bsnm{{Gruber}}},
+\bauthor{\binits{E.M.} \bsnm{{Petty}}},
+\batitle{{AXIN2-associated autosomal dominant ectodermal dysplasia and
+  neoplastic syndrome.}}
+\bjtitle{Am. J. Med. Genet. A.}
+\bvolume{155},
+\bfpage{898}--\blpage{902}
+(\byear{2011})
+\end{barticle}
+\endbibitem
+
+\bibitem{casey2}%[\protect\citeauthoryear{{Rozek} et~al.}{2010}]{casey2}
+\begin{barticle}
+\bauthor{\binits{L.S.} \bsnm{{Rozek}}},
+\bauthor{\binits{\textbf{C.}\textbf{M.}} \bsnm{{\textbf{Herron}}}},
+\bauthor{\binits{J.K.} \bsnm{{Greenson}}},
+\bauthor{\binits{V.} \bsnm{{Moreno}}},
+\bauthor{\binits{G.} \bsnm{{Capella}}},
+\bauthor{\binits{G.} \bsnm{{Rennert}}},
+\bauthor{\binits{S..B.} \bsnm{{Gruber}}},
+\batitle{{Smoking, gender, and ethnicity predict somatic BRAF mutations in
+  colorectal cancer.}}
+\bjtitle{Cancer Epidemiol. Biomarkers Prev.}
+\bvolume{19},
+\bfpage{838}--\blpage{843}
+(\byear{2010})
+\end{barticle}
+\endbibitem
+
+\bibitem{casey1}%[\protect\citeauthoryear{{Greenson} et~al.}{2009}]{casey1}
+\begin{barticle}
+\bauthor{\binits{J.K.} \bsnm{{Greenson}}},
+\bauthor{\binits{S.C.} \bsnm{{Huang}
+\bauthor{\binits{\textbf{C.}\textbf{M.}} \bsnm{{\textbf{Herron}}}},}},
+\bauthor{\binits{V.} \bsnm{{Moreno}}},
+\bauthor{\binits{J.D.} \bsnm{{Bonner}}},
+\bauthor{\binits{L.P.} \bsnm{{Tomsho}}},
+\bauthor{\binits{O.} \bsnm{{Ben-Izhak}}},
+\bauthor{\binits{H.I.} \bsnm{{Cohen}}},
+\bauthor{\binits{P.} \bsnm{{Trougouboff}}},
+\bauthor{\binits{J.} \bsnm{{Bejhar}}},
+\bauthor{\binits{Y.} \bsnm{{Sova}}},
+\bauthor{\binits{M.} \bsnm{{Pinchev}}},
+\bauthor{\binits{G.} \bsnm{{Rennert}}},
+\bauthor{\binits{S.B.} \bsnm{{Gruber}}},
+\batitle{{Pathologic predictors of microsatellite instability in colorectal
+  cancer.}}
+\bjtitle{Am. J. Surg. Pathol.}
+\bvolume{33},
+\bfpage{126}--\blpage{133}
+(\byear{2009})
+\end{barticle}
+\endbibitem
+
+\end{thebibliography}
