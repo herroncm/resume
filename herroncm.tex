@@ -1,0 +1,194 @@
+% LaTeX resume using res.cls
+\documentclass{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+%\usepackage{natbib}
+\usepackage{filecontents}
+\usepackage{cite} % uses cite package for formatting the publications
+\newsectionwidth{0pt}  % So the text is not indented under section headings
+\usepackage{color,hyperref}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=darkblue,urlcolor=darkblue,
+            anchorcolor=darkblue,citecolor=darkblue}
+\topmargin = -.5in
+\setlength{\textheight}{10in} 
+
+\def\FormatName#1{%
+  \def\myname{Herron}%
+  \edef\name{#1}%
+  \ifx\name\myname
+    \textbf{#1}%
+  \else
+    #1%
+  \fi
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\name{\Huge{Casey Herron}}
+\address{801 17th Ave\\Seattle, WA 98122} 
+\address{\textit{T:} (734) 754-6020\\\textit{Email:} casey.m.herron@gmail.com}
+\begin{resume}
+
+\section{EXPERIENCE}
+\vspace*{+0.2cm}
+\textbf{Data and Applied Scientist II}, \textit{Microsoft} \hfill \textbf{2015 - Present}
+%Redmond, Washington
+\begin{itemize} \itemsep -2pt
+\item Easing transition from AWS to Azure
+\item SPARK integration, HDInsight, Azure Data Lake, WebHDFS
+\item Continuation of the Revolution job transitioning to Microsoft
+\end{itemize}
+
+\textbf{Data Scientist}, \textit{Revolution Analytics} \hfill \textbf{2013 - 2015}
+%Seattle, Washington
+\begin{itemize} \itemsep -2pt
+\item Wearing many hats within the RevoScaleR development team
+\item Designated Scrum Master
+\item Analytics tackled: Naive Bayes, Tree/Forest Algorithms, Linear and Logistic Regression, Chunking algorithms,
+\item Hadoop and other distributed platforms 
+\end{itemize}
+
+\textbf{Statistical Research Associate}, \textit{Fred Hutchinson Cancer Research Center} \hfill \textbf{2011 - 2013}%\\
+%\textit{Statistical Center for HIV/AIDS Research and Prevention}
+%Seattle, Washington\\
+\begin{itemize} \itemsep -2pt
+\item Lead statistical support for study design, data collection, and data analysis for three HIV prevention clinical trials
+\item Statistical programming in R and SAS
+\item Developed strong written and verbal communication skills including ability to tailor content and delivery of results to a diverse audience regardless of their of statisical acumen
+\item Analysis efforts resulted in three publications and one abstract/poster at the 2011 Society for Clinical Trials meeting
+\end{itemize}
+
+\textbf{University of Michigan}, Ann Arbor, Michigan\\
+\textit{Graduate Student Instructor, Department of Statistics} \hfill \textbf{2011}
+\begin{itemize} \itemsep -2pt
+\item Taught an undergraduate course, Introduction to Statistics and Data Analysis
+\end{itemize}
+\textit{Graduate Student Research Assistant, Department of Biostatistics} \hfill \textbf{2010}
+\begin{itemize} \itemsep -2pt
+\item Genetics Rotation: Developed analysis in R identifying regions of chromosomal loss associated with clinical outcomes in tumor samples from patients with Lung Cancer.
+\item Clinical Trials Rotation: Analyzed data from a clinical trial looking at the efficacy of an incontinence intervention in women with pelvic floor disorder in SAS.  
+\end{itemize}
+
+\textbf{University of Michigan, Department of Human Genetics}, Ann Arbor, Michigan\\
+\textit{Laboratory Specialist Intermediate} \hfill \textbf{2007 - 2009}
+\begin{itemize} \itemsep -2pt
+\item Successfully extracted DNA from many types of human tissues
+\item Developed and implemented protocols for sequencing DNA to look for germline mutations in families from the University of Michigan Cancer Genetics Clinic
+\item Entered data into an Oracle database and used SQL queries within SAS to summarize data for lab meetings and publications
+\item Contributions resulted in four publications
+\end{itemize}
+
+\section{EDUCATION}
+\vspace*{+0.2cm}
+\textbf{University of Michigan}, Ann Arbor, Michigan\\
+\begin{tabular}{ p{10cm} l } 
+M.S., {Biostatistics}, 2011\\
+%Relevant Coursework: Categorical Data Analysis, Generalized Linear Models, Non-Parametric Methods, and Survival Analysis\\
+%Adviser: Dr. Jeremy Taylor
+\end{tabular}
+
+%\textbf{Washtenaw Community College}, Ypsilanti, Michigan\\
+%\begin{tabular}{ p{10cm} l }
+%Introduction to Programming with C++, Spring 2009
+%\end{tabular}
+
+\textbf{Kalamazoo College}, Kalamazoo, Michigan\\
+\begin{tabular}{ p{10cm} l }
+B.A., {Mathematics}, 2007\\
+Semester Abroad, \textit{University of Aberdeen, Aberdeen, UK}
+%Adviser: Dr. Eric Barth\\
+%Relevant Coursework: Scientific Computing (MATLAB and C), Linear Algebra, Statistical Theory, and Probability (R)\\
+\end{tabular}
+
+%\textbf{University of Aberdeen}, Aberdeen, United Kingdom\\
+%\begin{tabular}{ p{10cm} l }
+%Semester Abroad, Fall 2005
+%\end{tabular}
+
+\section{TECHNICAL SKILLS} 
+Languages: R, SAS, SQL\\
+Databases: MySQL, Oracle, MS SQL Server, HSQL, PostgreSQL\\
+Platforms: *NIX, Mac, Windows
+Distributed Platforms: Hadoop, Linux LSF, Teradata, and MS SQL Server
+Web Applications: Amazon Web Services, Microsoft Azure, Jenkins, JIRA
+Misc: Subversion, git, ansible, bash scripting 
+
+\renewcommand\refname{}
+\section{Peer Reviewed Publications}
+%\vspace*{-0.25cm}
+\renewcommand{\section}[2]{}%
+\begin{filecontents}{herroncm.bib}
+@article{casey7,
+author = {{Fowler}, M.~G. and {Coovadia}, J. and {Herron}, C.~M. and {Maldonado}, Y. and {Chipato}, T. and {Moodley}, D. and {Musoke}, P. and {Aizire}, J. and {Manji}, K. and {Stanix-Chibanda}, L. and {Fawzi}, W. and {Chetty}, V. and {Msweli}, L. and {Kisenge}, R. and {Brown}, E.~R. and {Mwatha}, A. and {Eshelman}, S.~H. and {Richardson}, P. and {Allen}, M. and {George}, K. and {Andrew}, P. and {Zwerski}, S. and {Mofenson}, L.~M. and {Jackson}, J.~B.},
+title = "{Efficacy and safety of an extended nevirapine regimen in infants of breastfeeding mothers with HIV-1 infection for prevention of HIV-1 transmission (HPTN 046): 18-month results of a randomized, double-blind, placebo-controlled trial.}",
+journal = {J. Acquir. Immune. Defic. Syndr.},
+year = 2014,
+volume = 65,
+pages = {366-374},
+}
+
+@article{casey6,
+author = {{Mirochnick}, M. and {Taha}, T. and {Kreitchmann}, R. and {Nielsen-Saines}, K. and {Kumwenda}, N. and {Joao}, E. and {Pinto}, J. and {Santos}, B. and {Parsons}, T. and {Kearney}, B. and {Emel}, L. and {Herron}, C.~M. and {Richardson}, P. and {Hudelson}, S.~E. and {Eshelman}, S.~H. and {George}, K. and {Fowler}, M.~G. and {Sato}, P. and {Mofenson} , L.},
+title = "{Pharmacokinetics and safety of tenofovir in HIV-infected women during labor and their infants during the first week of life.}" ,
+journal = {J. Acquir. Immune. Defic. Syndr.},
+year = 2014,
+volume = 65,
+pages = {33-41},
+}
+
+@article{casey5,
+author = {{Watts}, D.~H. and {Brown}, E.~R. and {Maldonado}, Y. and {Herron}, C.~M. and {Chipato}, T. and {Reddy}, L. and {Moodley}, D. and {Nakabiito}, C. and {Manji}, K. and {Fawzi}, W. and {George}, K. and {Richardson}, P. and {Zwerski}, S. and {Coovadia}, H. and {Fowler}, M.}, 
+title = "{HIV disease progression in the first year after delivery among African women followed in the HPTN 046 clinical trial.}",
+journal = {J. Acquir. Immune. Defic. Syndr.},
+year = 2013,
+volume = 64,
+pages = {299-306},
+}
+
+@article{casey4,
+author = {{Raymond}, V.~M. and {Herron}, C.~M. and {Giordano}, T.~J. and {Gruber}, S.~B.},
+title = "{Familial renal cancer as an indicator of hereditary leiomyomatosis and renal cell cancer syndrome.}",
+journal = {Fam. Cancer.},
+year = 2012,
+volume = 11,
+pages = {115-121},
+}
+
+@article{casey3,
+author = {{Marvin}, M.~L. and {Mazzoni}, S.~M. and {Herron}, C.~M. and {Edwards}, S. and {Gruber}, S.B. and {Petty}, E.~M.},
+title = "{AXIN2-associated autosomal dominant ectodermal dysplasia and neoplastic syndrome.}",
+journal = {Am. J. Med. Genet. A.},
+year = 2011,
+volume = 155,
+pages = {898-902},
+}
+
+@article{casey2,
+author = {{Rozek}, L.~S. and {Herron}, C.~M. and {Greenson}, J.~K. and {Moreno}, V. and {Capella}, G. and {Rennert}, G. and {Gruber}, S.~.B},
+title =  "{Smoking, gender, and ethnicity predict somatic BRAF mutations in colorectal cancer.}",
+journal = {Cancer Epidemiol. Biomarkers Prev.},
+year = 2010,
+volume = 19,
+pages = {838-843},
+}
+
+@article{casey1,
+author = {{Greenson}, J.~K. and {Huang}, S.~C. and {Herron}, C.~M. and {Moreno}, V. and {Bonner}, J.~D. and {Tomsho}, L.~P. and {Ben-Izhak}, O. and {Cohen}, H.~I. and {Trougouboff}, P. and {Bejhar}, J. and {Sova}, Y. and {Pinchev}, M. and {Rennert}, G. and {Gruber}, S.~B.},
+title =  "{Pathologic predictors of microsatellite instability in colorectal cancer.}",
+journal = {Am. J. Surg. Pathol.},
+year = 2009,
+volume = 33,
+pages = {126-133},
+}
+\end{filecontents}
+
+\bibliographystyle{aps-nameyear}      % American Physical Society (APS) style, author-year citations
+\bibliography{herroncm}                % name your BibTeX data base
+\nocite{*}
+
+\end{resume}
+
+\end{document}
