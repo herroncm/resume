@@ -1,4 +1,4 @@
-% LaTeX resume using res.cls
+%LaTeX resume using res.cls
 \documentclass{res}
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
 %\usepackage{newcent}   % uses new century schoolbook postscript font 
@@ -27,7 +27,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
-\name{\Huge{Casey Herron}}
+\name{Casey Herron}
 \address{801 17th Ave\\Seattle, WA 98122} 
 \address{\textit{T:} (734) 754-6020\\\textit{Email:} casey.m.herron@gmail.com}
 \begin{resume}
@@ -37,47 +37,46 @@
 \textbf{Data and Applied Scientist II}, \textit{Microsoft} \hfill \textbf{2015 - Present}
 %Redmond, Washington
 \begin{itemize} \itemsep -2pt
-\item Easing transition from AWS to Azure
-\item SPARK integration, HDInsight, Azure Data Lake, WebHDFS
-\item Continuation of the Revolution job transitioning to Microsoft
+\item Played key role in the remediation of RevolutionR for initial Microsoft release.
+\item Managed the migration of internal Hadoop clusters from Amazon Web Services to Microsoft Azure.
+\item Retained role as Scrum Master for the RevoltuionR engineering team.
+\item Most recently lead the development effort to write CSV files to the Hadoop Distributed File System from within R.
 \end{itemize}
 
 \textbf{Data Scientist}, \textit{Revolution Analytics} \hfill \textbf{2013 - 2015}
 %Seattle, Washington
 \begin{itemize} \itemsep -2pt
-\item Wearing many hats within the RevoScaleR development team
-\item Designated Scrum Master
-\item Analytics tackled: Naive Bayes, Tree/Forest Algorithms, Linear and Logistic Regression, Chunking algorithms,
-\item Hadoop and other distributed platforms 
+\item Lead scrum activities including stand-up, retrospective, and planning as Scrum Master.
+\item Contributed to the design, test, development, and documentation of new analytics functionality in R.
+\item Tested and documented new features across all supported platforms and in the process gained familiarity with Hadoop, Teradata, and Linux LSF.
+\item Headed effort to automate installation and configuration of Hadoop infrastructure on AWS.
 \end{itemize}
 
-\textbf{Statistical Research Associate}, \textit{Fred Hutchinson Cancer Research Center} \hfill \textbf{2011 - 2013}%\\
-%\textit{Statistical Center for HIV/AIDS Research and Prevention}
-%Seattle, Washington\\
+\textbf{Statistical Research Associate}, \textit{Fred Hutchinson Cancer Research Center} \hfill \textbf{2011 - 2013}
 \begin{itemize} \itemsep -2pt
-\item Lead statistical support for study design, data collection, and data analysis for three HIV prevention clinical trials
-\item Statistical programming in R and SAS
-\item Developed strong written and verbal communication skills including ability to tailor content and delivery of results to a diverse audience regardless of their of statisical acumen
-\item Analysis efforts resulted in three publications and one abstract/poster at the 2011 Society for Clinical Trials meeting
+\item Lead statistician for three HIV prevention clinical trials.
+\item Responsible for developing study design, overseeing data collection, and performing data analysis.
+\item Statistical programming performed in R and SAS
+%\item Developed strong written and verbal communication skills
+\item Analysis efforts resulted in three publications
 \end{itemize}
 
-\textbf{University of Michigan}, Ann Arbor, Michigan\\
-\textit{Graduate Student Instructor, Department of Statistics} \hfill \textbf{2011}
+\textbf{Graduate Student Instructor}, \textit{University of Michigan, Dept. of Statistics} \hfill \textbf{2011}
 \begin{itemize} \itemsep -2pt
 \item Taught an undergraduate course, Introduction to Statistics and Data Analysis
 \end{itemize}
-\textit{Graduate Student Research Assistant, Department of Biostatistics} \hfill \textbf{2010}
+
+\textbf{Graduate Student Research Assistant}, \textit{University of Michigan, Dept. of Biostatistics} \hfill \textbf{2010}
 \begin{itemize} \itemsep -2pt
-\item Genetics Rotation: Developed analysis in R identifying regions of chromosomal loss associated with clinical outcomes in tumor samples from patients with Lung Cancer.
-\item Clinical Trials Rotation: Analyzed data from a clinical trial looking at the efficacy of an incontinence intervention in women with pelvic floor disorder in SAS.  
+\item Genetics: Developed analysis in R to identify regions of DNA copy number variation in lung cancer samples. 
+\item Clinical Trials: Used logistic regression n SAS to determine the efficacy of an intervention in women with pelvic floor disorder.  
 \end{itemize}
 
-\textbf{University of Michigan, Department of Human Genetics}, Ann Arbor, Michigan\\
-\textit{Laboratory Specialist Intermediate} \hfill \textbf{2007 - 2009}
+\textbf{Laboratory Specialist Intermediate}, \textit{University of Michigan} \hfill \textbf{2007 - 2009}
 \begin{itemize} \itemsep -2pt
-\item Successfully extracted DNA from many types of human tissues
-\item Developed and implemented protocols for sequencing DNA to look for germline mutations in families from the University of Michigan Cancer Genetics Clinic
-\item Entered data into an Oracle database and used SQL queries within SAS to summarize data for lab meetings and publications
+\item Managed the laboratory of Dr. Stephen Gruber
+\item Developed and implemented DNA sequencing methods to look for mutations in families from the University of Michigan Cancer Genetics Clinic
+\item Responsible for entering lab test results into an Oracle database and for using SQL queries within SAS to summarize data for lab meetings and publications
 \item Contributions resulted in four publications
 \end{itemize}
 
@@ -109,16 +108,18 @@ Semester Abroad, \textit{University of Aberdeen, Aberdeen, UK}
 %\end{tabular}
 
 \section{TECHNICAL SKILLS} 
+\vspace*{+0.2cm}
+\begin{tabular}{ p{12cm} l }
 Languages: R, SAS, SQL\\
-Databases: MySQL, Oracle, MS SQL Server, HSQL, PostgreSQL\\
-Platforms: *NIX, Mac, Windows
-Distributed Platforms: Hadoop, Linux LSF, Teradata, and MS SQL Server
-Web Applications: Amazon Web Services, Microsoft Azure, Jenkins, JIRA
-Misc: Subversion, git, ansible, bash scripting 
+Platforms: *NIX, Mac, Windows\\
+Distributed Computing: Hadoop, Linux LSF, and Teradata\\
+Web Applications: Amazon Web Services, Microsoft Azure, Jenkins, and JIRA\\
+Productivity Tools: Subversion, Git, Ansible, and Bash Scripting\\ 
+\end{tabular}
 
 \renewcommand\refname{}
 \section{Peer Reviewed Publications}
-%\vspace*{-0.25cm}
+%\vspace*{+0.2cm}
 \renewcommand{\section}[2]{}%
 \begin{filecontents}{herroncm.bib}
 @article{casey7,
